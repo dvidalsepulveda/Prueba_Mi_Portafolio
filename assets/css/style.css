@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.logoDavse{
+  font-family: 'Fredoka One', cursive;
+}
+
+.heroSection{
+  background-image: url('../img/img-principal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: 2px 3px 2px #707070;
+
+}
+
+.tituloCabecera{
+  padding: 220px 20px 0 40px;
+}
+
+.logo{
+  width: 50%;
+}
+
+.logo2{
+  width: 60%;
+}
+
+.imgTrabajo{
+  width: 70%;
+}
+
+.contacElementos{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contacElementos i{
+  padding: 5px;
+}
+
+@media (min-width: 768px){
+  .logo{
+    width: 20%;
+  }
+  
+  .logo2{
+    width: 40%;
+  }
+
+  .heroSection{
+    height: 400px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 2px 3px 2px #707070;
+  
+  }
+  
+  .tituloCabecera{
+    padding: 200px 20px 0 40px;
+  }
+}
