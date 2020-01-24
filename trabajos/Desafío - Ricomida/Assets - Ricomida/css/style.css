@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar p{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.bg-dark{
+    background-color:#373A3C;
+}
+
+.imgPrincipal{
+    height: 230px;
+    text-align: center;
+    }
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+hr {
+    background-color: black;
+    height: 3px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.text-muted{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.botones{
+    padding-top: 10px;
+    display: flex;
+}
+
+.btnCorreo{
+    margin-right: 20px;
+}
+
+.carousel-indicators{
+    bottom: -60px;
+}
+
+.carousel-indicators .active{
+    background-color: black;
+}
+
+.carousel-indicators li{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.separador1{
+    display: none;
+}
+
+.separador2{
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.recetas{
+    width: 100%;
+}
+
+.barraTitulo{
+    width: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.receLista{
+    list-style-position: inside;
+}
+
+.ingredientes li{
+    list-style: none;
+}
+
+h6{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.suscribete{
+    background-color: #DC3545;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.suscribeElementos{
+    padding: 30px;
+}
+
+.susTex1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.susTex2{
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+}
+.susTex3{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.startBtn{
+    padding: 5px 90px;
+    margin-bottom: 50px;
+}
+
+footer p{
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    color: #FFFFFF;
+    text-align: center;
+    height: 130px;
+    padding-top: 40px;
+}
+
+@media (min-width: 768px){
+
+    h3{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    hr {
+        width: 70%;
+    }
+
+    .imgPrincipal{
+        width: 480px;
+        height: 380px;
+    }
+
+    .botones{
+        padding-top: 50px;
+    }
+
+    .susTex1{
+        font-size: 40px;
+        font-weight: 700;
+        padding: 0;
+    }
+
+    .susTex2{
+        font-size: 30px;
+        padding-bottom: 30px};
+    }
+
+    .separador1{
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        width: 70%;
+    }
+
+    .separador2{
+        margin-top: 60px;
+        margin-bottom: 50px;
+        width: 70%;
+    }
+
+    .recetas{
+        width: 70%;
+    }
+
+    .suscribeElementos{
+        padding: 100px;
+    }
+
+    
+}
