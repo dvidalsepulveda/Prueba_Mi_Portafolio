@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Roboto & Fredoka -->
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Roboto:300,400,700,900&display=swap" rel="stylesheet">
+    <!-- IHover -->
+    <link rel="stylesheet" href="assets/css/ihover.css">
     <!-- Mi estilo -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mi portafolio</title>
@@ -21,7 +23,7 @@
 <body>
 
     <!-- Navigation  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-perso static-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <h2 class="logoDavse">davse</h2>
@@ -38,13 +40,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#expe">Experiencia</a>
+                        <a class="nav-link" href="#expe">Experiencia & <br> Formación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#jobs">Trabajos hechos</a>
+                        <a class="nav-link" href="#jobs">Ultimos trabajos <br>realizados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contac">Contactos</a>
+                        <a class="nav-link" href="#contac">Contactate<br>conmigo</a>
                     </li>
                 </ul>
             </div>
@@ -53,41 +55,185 @@
 
     <header id="cabecera" class="heroSection">
         <div class="tituloCabecera">
-            <h1>Daniel Vidal Sepulveda</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="caja">
+                <h1>Daniel Vidal Sepulveda</h1>
+                <p class="bajada">Diseñador en Comunicación Visual y proximamente Diseñador UX/UI.</p>
+            </div>
         </div>
-
     </header>
 
-    <section id="expe" class="exp container">
-        <h2>EXPERIENCIA & FORMACIÓN</h2>
+    <section id="expe" class="exp container mt-2">
+        <h2>Experiencia & Formación</h2>
         <div class="row">
-            <div class="col-sm-12 col-md-6 mt-4">
-                <img src="assets/img/Logo-01.png" class="logo mx-auto d-block mt-5" alt="">
-                <img src="assets/img/Logo-02.png" class="logo mx-auto d-block mt-5" alt="">
-                <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt odio minima
+            <div class="col-sm-12 col-md-6 mt-4 mx-auto d-block">
+                <img src="assets/img/Logo-01.png" class="logo1 " alt="">
+                <img src="assets/img/Logo-02.png" class="logo2 " alt="">
+                <p class="años mt-3">Diseño en comunicación Visual<br>2010 - 2017</p>
+                <p class="expdes mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt odio minima
                     necessitatibus voluptates aspernatur reiciendis quas, sint aperiam temporibus aliquid,
                     exercitationem laboriosam quia maiores deserunt molestias nulla nostrum, ex repellat!</p>
             </div>
             <div class="col-sm-12 col-md-6">
-                <img src="assets/img/Logo-03.png" class="logo mx-auto d-block mt-5" alt="">
-                <img src="assets/img/Logo-04.png" class="logo2 mx-auto d-block mt-5" alt="">
-                <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt odio minima
+                <img src="assets/img/Logo-03.png" class="logo3 mx-auto d-block" alt="">
+                <img src="assets/img/Logo-04.png" class="logo4 mx-auto d-block mt-2" alt="">
+                <p class="años mt-3">Diseño UX/UI<br>2020</p>
+                <p class="expdes mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt odio minima
                     necessitatibus voluptates aspernatur reiciendis quas, sint aperiam temporibus aliquid,
                     exercitationem laboriosam quia maiores deserunt molestias nulla nostrum, ex repellat!</p>
             </div>
+
+            <!-- Habilidades programas -->
+            <!-- <div class="col container">
+                <h2>Dominio de herramientas</h2>
+                <div class="row">
+                    <div class="col-sm-4 mt-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom1.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Adobe Photoshop</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom2.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Adobe Illustrator</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom3.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Adobe Premiere</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4 mt-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom4.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Heading here</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom5.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Heading here</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom6.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Heading here</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+                </div>
+
+
+            </div> -->
+            
+            <div class="col container">
+                <h2>Dominio de herramientas</h2>
+                <div class="row">
+                    <div class="col-sm-4 mt-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom1.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Adobe Photoshop</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+
+                    <div class="col-sm-4 mt-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom2.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Adobe Illustrator</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+                    <div class="col-sm-4 mt-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom3.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Adobe Premiere</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+
+                    <div class="col-sm-4 mt-4 mt-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom4.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Heading here</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+
+                    <div class="col-sm-4 mt-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom5.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Heading here</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+                    <div class="col-sm-4 mt-4">
+                        <div class="ih-item square colored effect6 from_top_and_bottom mx-auto d-block"><a href="#">
+                                <div class="img"><img src="assets/img/dom6.png" alt="img"></div>
+                                <div class="info">
+                                    <h3>Heading here</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a></div>
+                    </div>
+                </div>
+
+
+            </div>
+        
         </div>
+        <!-- Boton hacia arriba -->
+        <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+            <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
     </section>
 
     <section id="jobs" class="trabajos">
-        <h2>ULTIMOS TRABAJOS REALIZADOS</h2>
+        <h2>Ultimos trabajos realizados</h2>
         <div class="container">
 
             <div class="row box-wrap mb-4">
                 <div class="col-lg-4 col-md-6 box">
                     <div class="card card-cascade narrower">
                         <!--Imagen-->
-                        <div class="imgTrabajo">
+                        <div class>
                             <img src="assets/img/1_meet-coffe.JPG" class="card-img-top" alt="Meet Coffe">
                         </div>
 
@@ -97,9 +243,8 @@
                             <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
                                 suscipit
                                 laboriosam, nisi ut aliquid ex ea commodi.</p>
-                            <a href="#">
-                                <a href="#" class="btn btn-block btn-outline-primary">Ir a la web</a>
-                            </a>
+                            <a href="trabajos/Desafío - Meet Coffee/index.html" target="_blank" class="btn btn-block btn-outline-primary">Ir a la web</a>
+                        
                         </div>
                     </div>
                 </div>
@@ -107,7 +252,7 @@
                 <div class="col-lg-4 col-md-6 box">
                     <div class="card card-cascade narrower">
                         <!--Imagen-->
-                        <div class="imgTrabajo">
+                        <div class>
                             <img src="assets/img/2_iguana.JPG" class="card-img-top" alt="Iguana Page">
                         </div>
 
@@ -118,7 +263,7 @@
                                 suscipit
                                 laboriosam, nisi ut aliquid ex ea commodi.</p>
                             <a href="#">
-                                <a href="#" class="btn btn-block btn-outline-primary">Ir a la web</a>
+                                <a href="trabajos/Desafio - Iguana Page/index.html" target="_blank" class="btn btn-block btn-outline-primary">Ir a la web</a>
                             </a>
                         </div>
                     </div>
@@ -127,7 +272,7 @@
                 <div class="col-lg-4 col-md-6 box">
                     <div class="card card-cascade narrower">
                         <!--Imagen-->
-                        <div class="imgTrabajo">
+                        <div class>
                             <img src="assets/img/3_suricata.JPG" class="card-img-top" alt="Suricata">
                         </div>
 
@@ -138,7 +283,7 @@
                                 suscipit
                                 laboriosam, nisi ut aliquid ex ea commodi.</p>
                             <a href="#">
-                                <a href="#" class="btn btn-block btn-outline-primary">Ir a la web</a>
+                                <a href="trabajos/Desafío - Suricata/index.html" target="_blank" class="btn btn-block btn-outline-primary">Ir a la web</a>
                             </a>
                         </div>
                     </div>
@@ -147,7 +292,7 @@
                 <div class="col-lg-4 col-md-6 box">
                     <div class="card card-cascade narrower">
                         <!--Imagen-->
-                        <div class="imgTrabajo">
+                        <div class>
                             <img src="assets/img/4_cuppon.JPG" class="card-img-top" alt="Cuppon">
                         </div>
 
@@ -158,7 +303,7 @@
                                 suscipit
                                 laboriosam, nisi ut aliquid ex ea commodi.</p>
                             <a href="#">
-                                <a href="#" class="btn btn-block btn-outline-primary">Ir a la web</a>
+                                <a href="trabajos/Desafío - Cuppon/index.html" target="_blank" class="btn btn-block btn-outline-primary">Ir a la web</a>
                             </a>
                         </div>
                     </div>
@@ -167,7 +312,7 @@
                 <div class="col-lg-4 col-md-6 box">
                     <div class="card card-cascade narrower">
                         <!--Imagen-->
-                        <div class="imgTrabajo">
+                        <div class>
                             <img src="assets/img/5_ricomida.JPG" class="card-img-top" alt="Ricomid">
                         </div>
 
@@ -178,7 +323,7 @@
                                 suscipit
                                 laboriosam, nisi ut aliquid ex ea commodi.</p>
                             <a href="#">
-                                <a href="#" class="btn btn-block btn-outline-primary">Ir a la web</a>
+                                <a href="trabajos/Desafío - Ricomida/index.html" target="_blank" class="btn btn-block btn-outline-primary">Ir a la web</a>
                             </a>
                         </div>
                     </div>
@@ -187,7 +332,7 @@
                 <div class="col-lg-4 col-md-6 box">
                     <div class="card card-cascade narrower">
                         <!--Imagen-->
-                        <div class="imgTrabajo">
+                        <div class>
                             <img src="assets/img/1_meet-coffe.JPG" class="card-img-top" alt="Meet Coffe">
                         </div>
 
@@ -198,7 +343,7 @@
                                 suscipit
                                 laboriosam, nisi ut aliquid ex ea commodi.</p>
                             <a href="#">
-                                <a href="#" class="btn btn-block btn-outline-primary">Ir a la web</a>
+                                <a href="trabajos/Desafío - Meet Coffee/index.html" target="_blank" class="btn btn-block btn-outline-primary">Ir a la web</a>
                             </a>
                         </div>
                     </div>
@@ -208,31 +353,32 @@
         </div>
     </section>
 
-    <div class="flotante">
+    <!-- <div class="flotante">
         <a href='#'><img src='assets/img/arriba.png'></a>
         <p>Volver <br> Arriba</p>
-    </div>
+    </div> -->
+
 
     <section id="contac" class="form mb-3">
-        <h2>HABLEMOS</h2>
+        <h2>Contactate conmigo</h2>
         <div class="container">
 
-            <div class="typeform-widget" data-url="https://danielvidal.typeform.com/to/KhjYVf"
+            <div class="typeform-widget" data-url="https://danielvidal.typeform.com/to/QHvEYt"
                 style="width: 100%; height: 500px;"></div>
             <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
-
         </div>
     </section>
 
     <!-- Footer -->
     <footer id="Contactos">
-        <div class="contacElementos bg-primary text-white container-fluid">
+        <div class="contacElementos bg-perso text-white container-fluid">
             <h2 class="logoDavse">davse</h2>
-            <i class="fab fa-facebook-square fa-2x"></i>
-            <i class="fab fa-twitter-square fa-2x"></i>
-            <i class="fab fa-instagram fa-2x"></i>
-            <i class="fab fa-github-square fa-2x"></i>
-            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-facebook-square fa-3x"></i>
+            <i class="fab fa-twitter-square fa-3x"></i>
+            <i class="fab fa-instagram fa-3x"></i>
+            <i class="fab fa-github-square fa-3x"></i>
+            <i class="fab fa-linkedin fa-3x"></i>
+            <p class="textFoot">Daniel Vidal Sepulveda - 2020 - Todos los derechos reservados.</p>
         </div>
     </footer>
 
@@ -246,6 +392,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

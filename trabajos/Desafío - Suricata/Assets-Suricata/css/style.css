@@ -1,0 +1,88 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fondo__suricata{
+    background-color: #E83E8C;
+}
+
+nav ul li .nav-link{
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+    color: #707070;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 80px 0;
+}
+
+@media (max-width: 320px) {
+    h1{
+        font-size: 35px;
+        padding: 40px 0;
+    }
+}
+
+.card-title{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.list-group-item, .card-link{
+    font-size: 11px;
+}
+
+/* Section pagos */
+.pagos{
+    background-color: #17A2B8;
+    color: #ffffff;
+    height: 170px;
+}
+
+.pagos .elementos{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.pagos p{
+    font-size: 40px;
+    font-weight: 700;
+    display: inline;
+    padding-right: 74px;
+}
+
+.pagos .fab{
+    padding: 10px;
+}
+
+/* footer */
+
+footer{
+    height: 184px;
+    text-align: center;
+}
+
+footer img{
+    margin-top: 30px;
+}
+
+@media (max-width: 1005px) {
+    .pagos{
+        display: none;
+    }
+    footer{
+        height: 300px;
+    }
+    footer img{
+        margin-top: 80px;
+    }
+}

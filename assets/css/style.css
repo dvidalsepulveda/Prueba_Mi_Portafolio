@@ -13,6 +13,19 @@ body{
 .logoDavse{
   font-family: 'Fredoka One', cursive;
   font-size: 60px;
+  color: #ffffff ;
+  padding: 0;
+  text-shadow: none;
+}
+
+.bg-perso{
+  background-color: #EEAD2D;
+}
+
+.nav-item{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .heroSection{
@@ -20,37 +33,65 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 500px;
   text-align: center;
   color: #ffffff;
-  font-size: 20px;
-  text-shadow: 2px 3px 2px #707070;
+  
+}
 
+h1{
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: 2px 3px 5px #000000; 
+}
+
+.bajada{
+  font-size: 18px;
+  text-shadow: 2px 3px 5px #000000;
+}
+
+.años{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.expdes{
+  display: none;
 }
 
 .tituloCabecera{
-  padding: 220px 20px 0 40px;
+  padding: 200px 20px 0 40px;
 }
 
-.logo{
-  width: 50%;
+.logo1{
+  width: 45%;
 }
 
 .logo2{
-  width: 60%;
+  width: 45%;
+}
+
+.logo3{
+  width: 35%;
+}
+
+.logo4{
+  width: 45%;
 }
 
 h2{
   text-align: center;
   font-size: 40px;
-  font-weight: 700;
-  padding: 30px 0;
+  font-weight: 900;
+  padding: 15px 0;
+  color: #EEAD2D;
+  text-shadow: 2px 3px 2px #0000009d;
+  padding: 20px 0;
 }
 
-.imgTrabajo{
-}
-
-.box-wrap{ 
+.box-wrap{
+  color: #000000;
 }
 
 .box{
@@ -70,6 +111,16 @@ h2{
   opacity:1;
 }
 
+.btn-outline-primary{
+  color: #EEAD2D;
+  border: 2px solid #EEAD2D;
+}
+
+.btn-outline-primary:hover{
+  background-color: #eead2d;
+  border: 2px solid #EEAD2D;
+}
+
 .contacElementos{
   text-align: center;
   padding: 20px 0;
@@ -79,7 +130,7 @@ h2{
   padding: 5px;
 }
 
-.flotante {
+/* .flotante {
   display:scroll;
   position:fixed;
   bottom:20px;
@@ -90,6 +141,18 @@ h2{
   width: 40%;
   padding-right: 50px;
   z-index: 100;
+} */
+
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:20px;
+  color:black;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
 }
 
 .form{
@@ -108,13 +171,28 @@ h2{
   z-index:2;
 }
 
+.textFoot{
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
 @media (min-width: 768px){
-  .logo{
-    width: 20%;
+  .logo1{
+    width: 25%;
+    display: block;
   }
   
   .logo2{
-    width: 40%;
+    width: 15%;
+    display: block;
+  }
+  .logo3{
+    width: 20%;
+  }
+  
+  .logo4{
+    width: 30%;
   }
 
   .heroSection{
@@ -128,6 +206,16 @@ h2{
   
   .tituloCabecera{
     padding: 200px 20px 0 40px;
+  }
+
+  .años{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .expdes{
+    display: inline ;
   }
 }
 

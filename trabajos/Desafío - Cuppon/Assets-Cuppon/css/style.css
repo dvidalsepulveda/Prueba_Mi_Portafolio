@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondo__verde{
+    background-color: #28A745;
+}
+/* main */
+
+.card{
+    margin: 30px auto;
+    
+}
+
+.card-body h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.card-body .card-text{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.card-body .card-text-des{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+hr{
+    margin: 0.5rem;
+}
+
+.precios{
+    text-align: right;
+
+}
+.precios p{
+    display: inline;
+    padding: 0 10px;
+}
+
+.p1{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.p2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #28A745;
+}
+
+/* formulario */
+form{
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo__form{
+    font-size: 21px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.color__text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+form .btn{
+    padding: 10px 40px;
+    border: #DDDDDD;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.caja{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.caja img{
+    padding: 10px 0;
+}
+
+@media (min-width: 576px) {
+    .card-deck{
+        margin: 30px;
+    }
+}
